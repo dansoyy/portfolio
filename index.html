@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Roldan</title>
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+      background-image: url('blue.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .profile-container {
+      max-width: 1000px;
+      margin: 10px auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    }
+    .profile-header {
+      background-color: #00d0ec;
+      color: #fff;
+      padding: 50px;
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .profile-header h1 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .profile-header p {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    .profile-body {
+      padding: 30px;
+    }
+    .profile-body h2 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .profile-body p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      text-align: justify;
+      text-justify: inter-word;
+      text-align: center;
+    }
+    .profile-body ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .profile-body ul li {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    h2{
+      text-align: center;
+    }
+    li{
+      text-align: center;
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(13, 132, 228, 0.2);
+      transition: 0.3s;
+      width: 50%;
+      height:100%;
+    }
+
+    .card:hover {
+     box-shadow: 0 25px 16px 0 rgba(13, 132, 228, 0.2);
+    }
+    ul{
+      display: flex;
+    }
+    p{
+      text-align: center;
+    }
+    div{
+      text-align: center;
+    }
+    img {
+      border-radius: 10px 10px 0 0;
+    }
+
+    .btn{
+      border: 1px solid transparent;
+      padding: 10px 30px;
+      color: #000000;
+      text-decoration: none;
+      transition: 0.6s ease;
+      border-radius: 50%;
+    }
+    .btn:hover{
+      background-color: rgb(82, 231, 224);
+      color: #000000;
+    }
+
+  </style>
+</head>
+<body>
+ <div class="profile-container">
+    <div class="profile-header">
+      <img src="roldan.jpg" alt="Profile Picture" class="rounded-circle mb-3">
+      <h1><u>Roldan Centeno Valencia</h1></u>
+      <p>Information Technology Student</p>
+    </div>
+  </div>
+  <div class="profile-container">
+    <div class="profile-body">
+      <h2>About Me</h2>
+      <p>As a BSIT student, I am currently studying towards a Bachelor of Science in Information Technology degree. My focus is on developing a strong understanding of computer systems and technology, as well as learning programming languages, algorithms, and software development. Throughout my studies, I am exploring topics such as data management, cybersecurity, and networking. I am a highly motivated individual who is detail-oriented and dedicated to learning and mastering the latest advancements in the field of information technology. I believe that my education and passion for technology will help me to achieve my career goals and make a positive impact on society.</p>
+      <h2>Projects</h2>
+      <ul>
+        <a href="error.html" class="card">
+          <img src="kabuyao.jpg" alt="Avatar" style="width:100%">  
+          <p style="text-align:center" href="error.html">Kabuyaw Paynds Systems</p>      
+        </a>
+        <a href="error.html" class="card">
+          <img src="library.jpg" alt="Avatar" style="width:100%">  
+          <p style="text-align:center">Library Management System</p>      
+        </a>
+        <a href="error.html" class="card">
+          <img src="bato.jpg" alt="Avatar" style="width:100%">    
+          <p style="text-align:center">Bato-Bato Pick Game</p>    
+        </a>
+      </ul>
+      <h2>Education</h2>  
+      <div>Bachelor's Degree in "Information Technology", University of Cabuyao (PnC), Laguna</div>   
+    </div>
+    <div class="profile-body">
+      <h2>Skills</h2>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </div>   
+    <div class="profile-body">
+      <h2>Contact Me</h2>      
+      <div>
+        <p>Name: Roldan Centeno Valencia</p>
+        <p>Email: valenciaroldann14@gmail.com</p>
+        <p>Phone: +63 948 050 0651</p>
+        <p>655 Marinig, Cabuyao, Laguna</p>
+      </div>
+    </div>
+    <div class="profile-body">
+      <h2>Socials</h2>    
+      <div class="button">
+        <a href="https://www.facebook.com/roldanvalencia013" target="_blank"><ion-icon name="logo-facebook" class="btn"></ion-icon></a>
+        <a href="https://twitter.com/dansoyy_" target="_blank"><ion-icon name="logo-twitter"class="btn"></ion-icon></a>
+        <a href="https://www.instagram.com/roldancv/" target="_blank"><ion-icon name="logo-instagram"class="btn"></ion-icon></a>
+        <a href="https://www.youtube.com/@roldanvalencia9248" target="_blank"><ion-icon name="logo-youtube"class="btn"></ion-icon></a>
+      
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      </div>
+    </div>   
+  </div> 
+</body>
+</html>
